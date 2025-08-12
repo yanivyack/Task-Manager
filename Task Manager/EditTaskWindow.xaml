@@ -1,0 +1,38 @@
+﻿<Window x:Class="Task_Manager.EditTaskWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task_Manager"
+        mc:Ignorable="d"
+        Title="EditTaskWindow" Height="450" Width="800" Loaded="Window_Loaded" KeyUp="Window_KeyUp" Closing="Window_Closing">
+    <Grid x:Name="grdMain">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100px"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="60px"/>
+        </Grid.RowDefinitions>
+
+        <TextBox Grid.Row="0" x:Name="tbTitle" FontSize="30"/>
+
+        <TextBox Grid.Row="1" x:Name="tbDescription" AcceptsReturn="True" TextWrapping="Wrap"/>
+
+        <Grid x:Name="grdButtons" Grid.Row="2" HorizontalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="btnDone" Grid.Column="0" Margin="5" Click="btnDone_Click">
+                <TextBlock FontSize="30" Margin="5" Text="Done"/>
+            </Button>
+            <Button x:Name="btnNext" Grid.Column="1" Margin="5" Click="btnNext_Click">
+                <TextBlock FontSize="30" Margin="5" Text="Next"/>
+            </Button>
+            <Button x:Name="btnCancel" Grid.Column="2" Margin="5" Click="btnCancel_Click">
+                <TextBlock FontSize="30" Margin="5" Text="Cancel"/>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,45 @@
+data acquired
+2025-08-08 12:36:10.199data acquired
+2025-08-08 13:22:42.678data acquired
+2025-08-08 14:26:53.338data acquired
+2025-08-08 14:28:30.817data acquired
+2025-08-08 14:45:11.910data acquired
+2025-08-08 14:57:48.570data acquired
+2025-08-08 15:03:50.908data acquired
+2025-08-08 15:07:15.871data acquired
+2025-08-08 15:12:30.675data acquired
+2025-08-08 15:18:12.341data acquired
+2025-08-08 15:26:26.527data acquired
+2025-08-08 15:37:26.317data acquired
+2025-08-08 15:39:01.967data acquired
+2025-08-08 15:40:56.292data acquired
+2025-08-08 16:13:54.707data acquired
+2025-08-08 16:15:54.720data acquired
+2025-08-08 16:27:08.838data acquired
+2025-08-08 16:41:17.165data acquired
+2025-08-08 16:42:27.952data acquired
+2025-08-08 16:48:24.149data acquired
+2025-08-08 16:51:03.903data acquired
+2025-08-08 16:56:06.615data acquired
+2025-08-08 16:59:53.201data acquired
+2025-08-08 17:07:33.654data acquired
+2025-08-08 17:08:48.477data acquired
+2025-08-08 17:53:30.711data acquired
+2025-08-08 18:03:04.717Method not found: 'PdfSharp.Drawing.XGraphics PdfSharp.Drawing.XGraphics.CreateMeasureContext(PdfSharp.Drawing.XSize, PdfSharp.Drawing.XGraphicsUnit, PdfSharp.Drawing.XPageDirection)'.
+   at TheArtOfDev.HtmlRenderer.PdfSharp.PdfGenerator.AddPdfPages(PdfDocument document, String html, PdfGenerateConfig config, CssData cssData, EventHandler`1 stylesheetLoad, EventHandler`1 imageLoad)
+   at TheArtOfDev.HtmlRenderer.PdfSharp.PdfGenerator.GeneratePdf(String html, PdfGenerateConfig config, CssData cssData, EventHandler`1 stylesheetLoad, EventHandler`1 imageLoad)
+   at TheArtOfDev.HtmlRenderer.PdfSharp.PdfGenerator.GeneratePdf(String html, PageSize pageSize, Int32 margin, CssData cssData, EventHandler`1 stylesheetLoad, EventHandler`1 imageLoad)
+   at BusinessLogic.ViewModels.PDFHandler.ExportToPDF(String filePath, List`1 tasks) in C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\BusinessLogic\ViewModels\PDFHandler.cs:line 17
+   at BusinessLogic.ViewModels.TaskList.ExportToPdf(String path, Exception& ex) in C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\BusinessLogic\ViewModels\TaskList.cs:line 205
+
+2025-08-08 18:10:21.719data acquired
+2025-08-08 18:13:33.516data acquired
+2025-08-09 19:21:29.263
+data acquired
+2025-08-09 19:30:25.931
+data acquired
+2025-08-09 19:38:03.075
+data acquired
+2025-08-09 19:48:01.562
+data acquired
+2025-08-09 20:20:45.464

@@ -1,0 +1,64 @@
+﻿<Window x:Class="Task_Manager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task_Manager"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded" KeyUp="Window_KeyUp" Closing="Window_Closing">
+    <Grid x:Name="grdMain">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100px"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="60px"/>
+            <RowDefinition Height="60px"/>
+            <RowDefinition Height="60px"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="tblMainTitle" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Task Manager" FontSize="50"/>
+
+        <ScrollViewer x:Name="svContent" Grid.Row="1">
+            <ListView x:Name="lvTaskList"/>
+        </ScrollViewer>
+
+        <ComboBox x:Name="cmbFilter" Grid.Row="2" SelectedIndex="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5" SelectionChanged="cmbFilter_SelectionChanged">
+            <ComboBoxItem Name="All">
+                <TextBlock Text="All tasks"/>
+            </ComboBoxItem>
+            <ComboBoxItem Name="Done">
+                <TextBlock Text="Finished tasks"/>
+            </ComboBoxItem>
+            <ComboBoxItem Name="NotDone">
+                <TextBlock Text="Unfinished tasks"/>
+            </ComboBoxItem>
+        </ComboBox>
+        
+        <StackPanel x:Name="spTaskButtons" Grid.Row="3" HorizontalAlignment="Center" Orientation="Horizontal">
+            <Button x:Name="btnNewTask" Grid.Column="0" Margin="5" Click="btnNewTask_Click">
+                <TextBlock FontSize="30" Margin="5" Text="New Task"/>
+            </Button>
+            
+            <Button x:Name="btnEditTask" Grid.Column="1" Margin="5" Click="btnEditTask_Click">
+                <TextBlock FontSize="30" Margin="5" Text="Edit Task"/>
+            </Button>
+            
+            <Button x:Name="btnDeleteTask" Grid.Column="2" Margin="5" Click="btnDeleteTask_Click">
+                <TextBlock FontSize="30" Margin="5" Text="Delete Task"/>
+            </Button>
+        </StackPanel>
+
+        <StackPanel x:Name="spGeneralButtons" Grid.Row="4" HorizontalAlignment="Center" Orientation="Horizontal">
+            <Button x:Name="btnSave" Grid.Column="0" Margin="5" Click="btnSave_Click">
+                <TextBlock FontSize="30" Margin="5" Text="Save"/>
+            </Button>
+
+            <Button x:Name="btnExport" Grid.Column="0" Margin="5" Click="btnExport_Click">
+                <TextBlock FontSize="30" Margin="5" Text="Export To PDF"/>
+            </Button>
+
+            <Button x:Name="btnClose" Grid.Column="1" Margin="5" Click="btnClose_Click">
+                <TextBlock FontSize="30" Margin="5" Text="Close"/>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

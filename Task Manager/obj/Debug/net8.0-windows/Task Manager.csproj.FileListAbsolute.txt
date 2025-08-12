@@ -1,0 +1,41 @@
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\bin\Debug\net8.0-windows\DbFile.json
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\bin\Debug\net8.0-windows\Task Manager.exe
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\bin\Debug\net8.0-windows\Task Manager.deps.json
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\bin\Debug\net8.0-windows\Task Manager.runtimeconfig.json
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\bin\Debug\net8.0-windows\Task Manager.dll
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\bin\Debug\net8.0-windows\Task Manager.pdb
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\bin\Debug\net8.0-windows\BusinessLogic.dll
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\bin\Debug\net8.0-windows\FileDbManager.dll
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\bin\Debug\net8.0-windows\BusinessLogic.pdb
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\bin\Debug\net8.0-windows\FileDbManager.pdb
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\obj\Debug\net8.0-windows\Task Manager.csproj.AssemblyReference.cache
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\obj\Debug\net8.0-windows\Task Manager_MarkupCompile.cache
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\obj\Debug\net8.0-windows\Task Manager_MarkupCompile.lref
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\obj\Debug\net8.0-windows\Task Manager.g.resources
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\obj\Debug\net8.0-windows\Task Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\obj\Debug\net8.0-windows\Task Manager.AssemblyInfoInputs.cache
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\obj\Debug\net8.0-windows\Task Manager.AssemblyInfo.cs
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\obj\Debug\net8.0-windows\Task Manager.csproj.CoreCompileInputs.cache
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\obj\Debug\net8.0-windows\Task Man.74AF0842.Up2Date
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\obj\Debug\net8.0-windows\Task Manager.dll
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\obj\Debug\net8.0-windows\refint\Task Manager.dll
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\obj\Debug\net8.0-windows\Task Manager.pdb
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\obj\Debug\net8.0-windows\Task Manager.genruntimeconfig.cache
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\obj\Debug\net8.0-windows\ref\Task Manager.dll
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\bin\Debug\net8.0-windows\LogManager.dll
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\bin\Debug\net8.0-windows\LogManager.pdb
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\obj\Debug\net8.0-windows\SingleTaskDisplay.g.cs
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\obj\Debug\net8.0-windows\SingleTaskDisplay.baml
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\obj\Debug\net8.0-windows\EditTaskWindow.g.cs
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\obj\Debug\net8.0-windows\EditTaskWindow.baml
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\bin\Debug\net8.0-windows\HtmlRenderer.dll
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\bin\Debug\net8.0-windows\HtmlRenderer.PdfSharp.dll
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\bin\Debug\net8.0-windows\PdfSharp.Charting.dll
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\bin\Debug\net8.0-windows\PdfSharp.dll
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\bin\Debug\net8.0-windows\de\PdfSharp.Charting.resources.dll
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\bin\Debug\net8.0-windows\de\PdfSharp.resources.dll
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\navaj\Desktop\Norav Medical Task\Task Manager\Task Manager\bin\Debug\net8.0-windows\itextsharp.dll

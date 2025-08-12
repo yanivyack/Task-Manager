@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="Task_Manager.SingleTaskDisplay"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Task_Manager"
+             mc:Ignorable="d" 
+             d:DesignHeight="150" d:DesignWidth="800" Loaded="UserControl_Loaded">
+    <Grid x:Name="grdMain">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50px"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20px"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50px"/>
+            <ColumnDefinition Width="50px"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock x:Name="tblTitle" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" FontSize="30" Text="{Binding Path=Title}"/>
+
+        <Button x:Name="btnPrioritize" Grid.Row="1" Grid.Column="0" Background="Transparent" Tag="{Binding Path=ID}" Click="btnPrioritize_Click">
+            <Image Source="/Images/Up.png" Margin="5,0,5,0"/>
+        </Button>
+        <Button x:Name="btnDeprioritize" Grid.Row="1" Grid.Column="1" Background="Transparent" Tag="{Binding Path=ID}" Click="btnDeprioritize_Click">
+            <Image Source="/Images/Down.png" Margin="5,0,5,0"/>
+        </Button>
+
+        <CheckBox x:Name="cbDone" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" IsChecked="{Binding Path=Done}" Checked="cbDone_CheckChanged" Unchecked="cbDone_CheckChanged">
+            <TextBlock Text="Done"/>
+        </CheckBox>
+
+        <TextBlock x:Name="tblDescription" Grid.Row="1" Grid.RowSpan="2" Grid.Column="2" Text="{Binding Path=Description}"/>
+    </Grid>
+</UserControl>
